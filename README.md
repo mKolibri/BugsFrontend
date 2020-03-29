@@ -8,7 +8,7 @@
         - create / delete / modify deffects
         - sort deffects by status
         - save screenshots for bug
-    - Data security is guaranteed. Bug design tools allow testers and software engineers to create a deffect diagrams   efficiently and in a user-friendly interface.
+    - Data security is guaranteed. Bug design tools allow testers and software engineers to create a deffect diagrams efficiently and in a user-friendly interface.
 
 # GETTING STARTED && INSTALLING
     - Clone in your PC this: https://github.com/mKolibri/BugsFrontend.git
@@ -17,6 +17,7 @@
             └── npm run prod
         # RUN FOR DEVELOPMENT MODE
             └── npm run dev
+
 # PREREQUISITES
     - Can used with backend part: https://github.com/mKolibri/BugsBackend.git
 
@@ -35,14 +36,14 @@
 # PROJECT SCHEMA
     /frontend
         ├── package.json - The list of node dependencies which are needed.
-    ├── package-lock.json
-    ├── public
-    │   └── index.html - Entry point. The first readable module, and follows from it to other modules to compile them.
-    ├── README.md
-    └── src - Anything that is used when the app is compiled
-        ├── app.jsx -  File for main component in React which acts as a container for all other components.
-        ├── components - All components in app, css files
-        └── index.js - The javascript file corresponding to index.html.
+        ├── package-lock.json
+        ├── public
+        │   └── index.html - Entry point. The first readable module, and follows from it to other modules to compile them.
+        ├── README.md
+        └── src - Anything that is used when the app is compiled
+            ├── app.jsx -  File for main component in React which acts as a container for all other components.
+            ├── components - All components in app, css files
+            └── index.js - The javascript file corresponding to index.html.
 
 # ACKNOWLEDGMENT
     - Special for Instigate mobile.
